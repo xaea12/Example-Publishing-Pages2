@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- <link rel="stylesheet" href="Monopoly.css"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
-</head>
-<style>
-    #border{
+/* div {
+    border: 1px solid black;
+  } */
+#border{
     margin: auto;
     background-color: white;
     padding-top: 10px;
@@ -93,30 +89,3 @@ body{
     padding-top: 5px;
     padding-bottom: 0px;
 }
-</style>
-<body>
-<div id="border">
-<div class= "std" id="card">  
-    <div id="deed"> 
-        <div id="title"> TITLE DEED </div>
-        <div id="name"> <strong> MARVIN GARDENS</strong> </div>
-    </div>
-    <div id="body"> 
-        <div id="rent"> RENT $24 </div>
-        <div id="style">
-            <div id="left"> With 1 House <br> With 2 House <br> With 3 House <br> With 4 House </div>
-            <div id="right"> $ 120. <br> 360. <br> 850. <br> 1025. </div>
-        </div>
-        <div id="subtext"> 
-            With HOTEL $1200. <br>
-            Mortgage Value $140. <br>
-            Houses cost $150. each <br>
-            Hotels, $150. plus 4 houses
-        </div>
-    </div>
-    <div id="smallprint"> If a player owns ALL the Lots of any Color-Group, the rent is Doubled on any Unimproved Lots in that group. </div>
-    <div id="copyright"> &copy; 1935 Hasbro, Inc. </div>
-</div>
-</div>
-</body>
-</html>
